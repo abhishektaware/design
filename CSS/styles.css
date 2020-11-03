@@ -1,0 +1,395 @@
+#title{
+  background-color: #F0F0F3;
+}
+.container-fluid {
+  padding: 3% 15% ;
+  position: relative;
+}
+
+.top{
+  background-color: #F0F0F3;
+  background: url("AT 2.png") center right;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 1000px;
+}
+h1 {
+  font-family: Playfair-Display;
+  font-size: 4rem;
+  font-weight: 900;
+  line-height: 1.5;
+  margin-top: 15%;
+  margin-bottom: 10%;
+  position: relative;
+}
+
+h4{
+  font-family: Lato;
+  font-weight: 900;
+}
+
+p {
+  font-size: 1.1rem;
+  font-family: Lato;
+  line-height: 1.5;
+}
+
+h2 {
+  font-family: Lato;
+  font-weight: 900;
+  padding: 25% 0 2%;
+}
+
+h5 {
+  font-family: Lato;
+  padding-top: 10%;
+}
+h6{
+  font-family: Lato;
+  font-weight: 900;
+}
+
+
+hr {
+  margin-top: 15%;
+  margin-bottom: 15%;
+  width: 20%;
+  position: static;
+
+
+}
+
+/* navigation Bar */
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-nav {
+  font-family: Lato;
+}
+
+.navbar-brand {
+  font-size: 3rem;
+  font-family: Playfair-Display;
+  font-weight: 900;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+
+.intro {
+  height:auto;
+
+}
+.introimg{
+  background-color: #F0F0F3;
+
+}
+
+.work {
+  position: relative;
+  color: #000000;
+  text-decoration: underline;
+}
+
+.work-int {
+  position: relative;
+  top: 1.5rem;
+  color: #000;
+  text-decoration: underline;
+  padding-bottom: 30%;
+}
+
+.work-about {
+  position: relative;
+  top: 1.5rem;
+  color: #000000;
+
+
+}
+
+
+
+.EP-text{
+  padding-top: 5%;
+  padding-right: 20%;
+
+}
+
+.int-text{
+  padding-top: 5%;
+  padding-left: 20%;
+
+}
+
+.int{
+  border-radius: 20px;
+  transform: scale(.75);
+  position: relative;
+  right: 10%;
+}
+
+.EP{
+  transform: scale(.75);
+  position: relative;
+  left: 10%;
+}
+.feat {
+  padding: 5% 0;
+  text-decoration: underline;
+}
+
+/* Everything pets Case study */
+
+
+li{
+  line-height: 2.5;
+}
+
+.EP2{
+  padding-top: 20%;
+  padding-left: 20%;
+  padding-bottom: 20%;
+
+}
+
+.quote{
+  padding-top: 30%;
+  padding-bottom: 30%;
+}
+
+.EP-grey{
+  background-color: #F0F0F3;
+}
+
+.prob{
+  padding-top: 5%;
+}
+
+.MU-title{
+  padding-top: 50%;
+  color: #7B7FBD;
+}
+.mu-img{
+  transform: scale(.75);
+}
+
+
+
+/* about */
+.img-abt{
+  border-radius: 20px;
+}
+.abt-me{
+  height: 800px;
+}
+.about{
+  margin-top: 3%;
+  margin-bottom: .5%;
+}
+
+.abt {
+  font-family: Playfair-Display;
+  font-size: 2.8rem;
+  font-weight: 900;
+  line-height: 1.5;
+  margin-top: 15%;
+  margin-bottom: 10%;
+  position: relative;
+}
+
+.exp{
+  font-size: 1.1rem;
+  color: grey;
+}
+.skill{
+  color: #FFF;
+  background-color: #000;
+  display: inline-block;
+  font-size: .75rem;
+  padding: 1.2% 2%;
+  border-radius: 1rem;
+}
+/* Contact */
+#Contact{
+  text-align: center;
+}
+
+.bottom{
+  height: 750px;
+  margin-bottom: 1%;
+
+}
+.con{
+  font-size: 3.5rem;
+  margin-top: 15%;
+  margin-bottom: 5%;
+}
+.fai{
+  color: #000;
+  padding: 2%;
+  border-radius: 100%;
+  margin-top: 20%;
+  margin-right: 5%;
+  position: relative;
+  top: 10%;
+}
+.disclaimer{
+  font-size: .5rem;
+
+}
+
+
+
+/* visualisation */
+.Liv-top{
+  padding-left: 5%;
+  position: relative;
+  bottom: 3rem;
+}
+
+.As-baige{
+  background-color: #ddd7d0;
+}
+
+
+
+/* Resposive */
+
+
+@media (max-width: 1000px) {
+
+
+  body{
+    text-align: center;
+
+  }
+  p
+  {
+    font-size: 1rem;
+  }
+
+  .top{
+    height: 1200px;
+    background-color: #F0F0F3;
+    background: url("") center right ;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+  }
+
+
+  .row{
+    text-align: left;
+  }
+
+  .EP{
+
+  }
+
+  .EP2{
+    position: relative;
+    right: 7%;
+  }
+  .int{
+    transform: scale(.7);
+    position: relative;
+    left: 2%;
+
+  }
+  .EP-text{
+  padding: 0;
+  text-align: center;
+
+  }
+
+  .int-text{
+  padding: 0;
+  text-align: center;
+  }
+  .MU-title{
+    padding-top: 10%;
+    color: #7B7FBD;
+  }
+  .con{
+    font-size: 2.5rem;
+    padding-top: 25%;
+    padding-bottom: 25%;
+  }
+
+  }
+
+
+@media (max-width: 540px) {
+  body{
+  text-align: center;
+
+  }
+  h1{
+    font-size: 2rem;
+  }
+  p{
+    font-size: 1rem;
+  }
+
+  .top{
+
+    background-color: #F0F0F3;
+    background: url("") center right ;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+
+  .navbar-brand{
+    font-size: 2rem;
+  }
+
+  .introimg{
+    display: none;
+  }
+
+  .row{
+    text-align: center;
+  }
+
+  .EP{
+
+    left: 5%;
+    margin: 0 auto;
+
+  }
+  .EP2{
+    position: relative;
+    right: 8%;
+  }
+  .int{
+    margin: 0 auto;
+    position: static;
+
+  }
+  .EP-text{
+    padding-right:0;
+
+  }
+  .int-text{
+    padding-left: 0;
+  }
+  .con{
+    font-size: 1.1rem;
+    padding-top: 25%;
+    padding-bottom: 25%;
+  }
+
+  .prob{
+    font-size: 1.2rem;
+  }
+  .abt{
+    font-size: 2rem;
+  }
+  .disclaimer{
+    font-size: .2rem;
+  }
+
+}
